@@ -1,1 +1,0 @@
-A program that compares a rectified sine waveform with a frequency of 100 Hz and an amplitude of 1 with a sawtooth waveform with an amplitude of 1 and a frequency of 100 kHz and outputs pulses of 0 and 1. The comparison should be such that if the sine amplitude is greater than the sawtooth wave, it gives a pulse of 1 and otherwise a pulse of 0.
