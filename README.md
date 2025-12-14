@@ -23,14 +23,5 @@ make -j
 3. Run MATLAB examples:
 - Open MATLAB in the project folder and run the example scripts or call functions described in the project README.
 
-## Structure
-- projects/ : each project in its own subfolder with README, source, and tests
-- tests/ : unit tests for C and MATLAB
-- docs/ : documentation and usage guides
-- .github/workflows : CI workflows
-
-## Contributing
-Please read CONTRIBUTING.md for how to contribute, run tests, and coding style.
-
 ## License
 This project is licensed under the MIT License — see the LICENSE file for details.
