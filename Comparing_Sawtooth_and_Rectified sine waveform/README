@@ -41,14 +41,6 @@ Or run MATLAB non-interactively:
 matlab -batch "plot_waveforms"
 ```
 
-## File format
-Output file columns (CSV-like):
-- Time — seconds (floating)
-- Rectified_Sine — normalized amplitude (0..1)
-- Sawtooth — carrier amplitude (0..1)
-- Output_Pulse — digital level (0 or 1)
-
-The plotting script expects the header/column names above. If the file extension is `.txt`, the script still reads the data provided the header and delimiters match.
 
 
 
