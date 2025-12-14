@@ -8,8 +8,8 @@ A rectified sine (100 Hz envelope) is compared sample-by-sample against a high-f
 ## Repository contents
 - `waveform_compare.c` — C program that synthesizes the rectified sine and sawtooth signals, performs the comparator operation, and writes numeric results to disk.  
 - `plot_waveforms.m` — MATLAB script that loads the generated data and produces full and zoomed plots.  
-- `waveform_comparison.csv` — Example CSV output (columns: `Time, Rectified_Sine, Sawtooth, Output_Pulse`).  
-- `output.txt` — Additional textual output / log (optional).
+- `waveform_comparison.txt` — Example txt output (columns: `Time, Rectified_Sine, Sawtooth, Output_Pulse`).  
+- `output.txt` — Additional textual output / log.
 
 ## Brief theory
 - **Rectified sine (envelope)**: `rectified_sine(t) = |sin(2π f_sine t)|`, with `f_sine = 100 Hz`.  
@@ -21,8 +21,7 @@ Because `f_saw ≫ f_sine`, many carrier cycles occur during each sine half-cycl
 ## Usage (local)
 ### Prerequisites
 - C compiler (GCC recommended)  
-- MATLAB for plotting (or an equivalent tool that can read CSV)
-
+- MATLAB for plotting 
 ### Build and run (C)
 From the project folder:
 ```sh
