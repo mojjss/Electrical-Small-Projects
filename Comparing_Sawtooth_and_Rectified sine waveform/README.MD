@@ -1,4 +1,4 @@
-# Sawtooth vs. Rectified Sine — Comparator-Based PWM Demo
+# Sawtooth vs Rectified Sine Comparator Based PWM Demo
 
 ## Overview
 This repository contains a compact, conceptual demonstration of comparator-based pulse-width modulation (PWM) in which the instantaneous duty cycle of a high-frequency pulse train follows the envelope of a low-frequency rectified sine wave.
