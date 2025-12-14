@@ -1,1 +1,56 @@
-##A program that compares a rectified sine waveform with a frequency of 100 Hz and an amplitude of 1 with a sawtooth waveform with an amplitude of 1 and a frequency of 100 kHz and outputs pulses of 0 and 1. The comparison should be such that if the sine amplitude is greater than the sawtooth wave, it gives a pulse of 1 and otherwise a pulse of 0.
+# Comparing Sawtooth and Rectified Sine Waveforms
+
+## Project overview
+This project demonstrates a simple comparator-based generation of a high-frequency pulse train (PWM-like) whose instantaneous duty cycle follows the envelope of a low-frequency rectified sine wave. The comparator compares a rectified sine wave (100 Hz) with a fast sawtooth carrier (100 kHz) and outputs a digital pulse (0/1) when the rectified sine exceeds the sawtooth.
+
+This is a conceptual demonstration useful for understanding PWM generation, envelope tracking, and basic waveform processing.
+
+## Contents
+- waveform_compare.c 
+  C program that generates the two signals, performs the comparison sample-by-sample, and writes the numeric results to a file.
+- plot_waveforms.m 
+  MATLAB script that loads the output file and produces plots (full and zoomed views).
+- waveform_comparison.csv 
+  Comma-separated numeric output with columns: Time, Rectified_Sine, Sawtooth, Output_Pulse.
+- output.txt  
+  
+
+## Theory (brief)
+- Rectified sine (envelope): rectified_sine(t) = |sin(2π f_sine t)|, with f_sine = 100 Hz.
+- Sawtooth (carrier): sawtooth(t) is a repeating ramp (0 → 1) at f_saw = 100 kHz.
+- Comparator rule: output_pulse(t) = 1 if rectified_sine(t) > sawtooth(t), else 0.
+
+Because the carrier frequency is much higher than the envelope frequency (f_saw >> f_sine), many sawtooth cycles occur during a single sine half-cycle. The portion of carrier cycles where the envelope exceeds the carrier sets the instantaneous duty cycle of the resulting pulse train — mapping amplitude to duty cycle.
+
+## How to run (local)
+1. Compile and run the C program:
+```sh
+# from the project folder
+gcc -O2 -o waveform_compare waveform_compare.c -lm
+./waveform_compare
+# This produces waveform_comparison.txt (or .csv if you rename the output file).
+```
+
+2. Open MATLAB and run the plotting script:
+```matlab
+% from the project folder
+plot_waveforms   % or run('plot_waveforms.m')
+```
+Or run MATLAB non-interactively:
+```sh
+matlab -batch "plot_waveforms"
+```
+
+## File format
+Output file columns (CSV-like):
+- Time — seconds (floating)
+- Rectified_Sine — normalized amplitude (0..1)
+- Sawtooth — carrier amplitude (0..1)
+- Output_Pulse — digital level (0 or 1)
+
+The plotting script expects the header/column names above. If the file extension is `.txt`, the script still reads the data provided the header and delimiters match.
+
+
+
+## License & attribution
+See the repository root for license and contribution information.
