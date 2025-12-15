@@ -1,4 +1,7 @@
 # Sawtooth vs Rectified Sine Comparator Based PWM Demo
+[![](https://img.shields.io/badge/%20-A8B9CC?logo=c&logoColor=black)](https://github.com/<owner>/<repo>/actions)
+[![MATLAB](https://img.shields.io/badge/MATLAB-FF6F00?logo=data:image/svg+xml;base64,<PASTE_BASE64_SVG_HERE>&logoColor=white)](https://github.com/<owner>/<repo>/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## Overview
 This repository contains a compact, conceptual demonstration of comparator-based pulse-width modulation (PWM) in which the instantaneous duty cycle of a high-frequency pulse train follows the envelope of a low-frequency rectified sine wave.
