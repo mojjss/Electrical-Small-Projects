@@ -54,7 +54,6 @@ This repository is licensed under the MIT License – see the [LICENSE](LICENSE)
 Feel free to use the code for your own learning, teaching, or research.
 
 ---
-
 *Maintained by [Mojtaba Sadafi](https://github.com/mojjss)*
-```
+
 
