@@ -5,6 +5,7 @@ A collection of small electrical engineering projects and signal‑processing pr
 Each project lives in its own folder with a dedicated README, code, and (sometimes!) generated figures.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/mojjss/Electrical-Small-Projects)
+![Languages](https://img.shields.io/github/languages/top/mojjss/Electrical-Small-Projects)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
