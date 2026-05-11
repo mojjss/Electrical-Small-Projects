@@ -1,7 +1,7 @@
 # Sawtooth vs Rectified Sine Comparator Based PWM Demo
 
-![GitHub last commit](https://img.shields.io/github/last-commit/mojjss/Electrical-Small-Projects)
-![Languages](https://img.shields.io/github/languages/top/mojjss/Electrical-Small-Projects)
+![GitHub last commit](https://img.shields.io/github/mojjss/Electrical-Small-Projects/tree/main/Comparing_Sawtooth_and_Rectified%20sine%20waveform)
+![Languages](https://img.shields.io/github/languages/top/mojjss/Electrical-Small-Projects/tree/main/Comparing_Sawtooth_and_Rectified%20sine%20waveform)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
