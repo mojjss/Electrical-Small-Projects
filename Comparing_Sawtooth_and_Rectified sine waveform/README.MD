@@ -1,4 +1,18 @@
 # Sawtooth vs Rectified Sine Comparator Based PWM Demo
+
+![GitHub last commit](https://img.shields.io/github/last-commit/mojjss/Electrical-Small-Projects)
+![Languages](https://img.shields.io/github/languages/top/mojjss/Electrical-Small-Projects)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+---
+
+##  Technologies & Tools
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange?logo=Mathworks&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+![Inkscape](https://img.shields.io/badge/Inkscape-vector--export-333333?logo=inkscape&logoColor=white)
 [![](https://img.shields.io/badge/%20-A8B9CC?logo=c&logoColor=black)](https://github.com/<owner>/<repo>/actions)
 [![MATLAB](https://img.shields.io/badge/MATLAB-FF6F00?logo=data:image/svg+xml;base64,<PASTE_BASE64_SVG_HERE>&logoColor=white)](https://github.com/<owner>/<repo>/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
